@@ -1,0 +1,7 @@
+Temperture and Top P in a Model
+
+Temperture and Top P are both parameters used to fine tune an AI/machine learning model, to adjust the type of outcome that you need. We set them when we are invoking the model and our choices are from 0-1, 0 being low, 1 being high.
+
+Temperature controls how confident the model behaves. Low temperatures, close to zero, make the model predictable and focused; high temperatures, closer to one, make it more random and creative. Low tempuratures are great for exact responses, like order status, inquiries, or category type (as we used in our chat project). High temperature settings are great for creativite tasks, like recommdations, marketing, and storytelling.
+
+Top P is a parameter that limits the amount of words that the model can choose from, giving it either straightforward responses or the ability to use a wider sety of words. Setting Top P closer to zero makes the model more focused in its answers, being ideal for things like customer support or FAQs. Higher Top P, closer to one, works great for product descriptions for varied responses.
