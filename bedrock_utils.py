@@ -49,7 +49,7 @@ def valid_prompt(prompt, model_id):
             body=json.dumps({
                 "anthropic_version": "bedrock-2023-05-31", 
                 "messages": messages,
-                "max_tokens": 10,
+                "max_tokens": 50,
                 "temperature": 0,
                 "top_p": 0.1,
             })
